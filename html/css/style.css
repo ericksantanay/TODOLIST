@@ -16,10 +16,30 @@ main{
     width: 500px;
     height: 350px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     background-color:#FCFCFC;
 }
 
 .card > h1{
-    text-align: center;
+    color: #515850;
+    margin-top: -60px;
+}
+
+#escreva-aqui > input { 
+    width: 350px;
+    padding: 10px;
+    border: solid 1px #769AA8;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+#btn{
+    width: 40px;
+    padding: 11px;
+    border: none;
+    color: white;
+    background-color: #4B9EBF;
+     
 }
