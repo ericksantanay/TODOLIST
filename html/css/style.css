@@ -13,8 +13,9 @@ main{
 }
 
 .card{
-    width: 500px;
-    height: 350px;
+    width: auto;
+    height: auto;
+    padding: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +27,7 @@ main{
     font-weight: 600;
     font-family: sans-serif;
     color: #515850;
-    margin-top: -60px;
+    margin-top: -20px;
 }
 
 #escreva-aqui > input { 
@@ -34,7 +35,7 @@ main{
     padding: 10px;
     border: solid 1px #769AA8;
     outline: none;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #escreva-aqui > input::placeholder{
@@ -47,6 +48,20 @@ main{
     padding: 11px;
     border: none;
     color: white;
-    background-color: #4B9EBF;
-     
+    background-color: #4B9EBF;   
+}
+
+.resultado{
+    width:410px;
+    background-color: #F0F5F8;
+    padding: 5px;
+}
+
+.resultado-dog-food{
+     width:410px;
+}
+
+.lapis{
+    color: #4B9EBF;
+    border: none;
 }
