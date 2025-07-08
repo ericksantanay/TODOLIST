@@ -23,6 +23,8 @@ main{
 }
 
 .card > h1{
+    font-weight: 600;
+    font-family: sans-serif;
     color: #515850;
     margin-top: -60px;
 }
@@ -33,6 +35,11 @@ main{
     border: solid 1px #769AA8;
     outline: none;
     margin-bottom: 5px;
+}
+
+#escreva-aqui > input::placeholder{
+    font-size: large;
+    padding: 90px;
 }
 
 #btn{
