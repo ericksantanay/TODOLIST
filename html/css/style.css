@@ -63,10 +63,12 @@ main{
     width:410px;
     background-color: #F0F5F8;
     padding: 5px;
+    color: #579BBE;
 }
 
 .resultado-dog-food{
      width:410px;
+     color: #579BBE;
 }
 
 .lapis-1{
@@ -116,4 +118,35 @@ main{
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+.task{
+  width: 100%;
+  margin-top: 30px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task > label{
+  padding-left: px;
+  border: solid 1px #EAEAEA;
+  padding: 5px;
+  width: 150px; 
+  background-image: linear-gradient(to right, #97E44A,#fff  80%);
+}
+
+#remove{
+  font-family: sans-serif;
+  color: white;
+  background-color: #579BBE;
+  padding: 5px;  
+}
+
+.bt-r{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  large;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: transparent;
 }
