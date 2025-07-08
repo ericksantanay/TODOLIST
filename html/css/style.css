@@ -51,6 +51,14 @@ main{
     background-color: #4B9EBF;   
 }
 
+.resultado > input{
+    cursor: pointer
+}
+
+.resultado-dog-food > input{
+    cursor: pointer;
+}
+
 .resultado{
     width:410px;
     background-color: #F0F5F8;
@@ -66,6 +74,7 @@ main{
     border: none;
     margin-left: 135px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .lapis-2{
@@ -73,6 +82,7 @@ main{
     border: none;
     margin-left: 249px;
      background-color: transparent;
+     cursor: pointer;
 }
 
 .lapis-3{
@@ -80,13 +90,15 @@ main{
     border: none;
     margin-left: 236px;
      background-color: transparent;
+     cursor: pointer;
 }
 
 .lapis-4{
     color: #61a8c4;
     border: none;
     margin-left: 180px;
-     background-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .lapis-5{
@@ -94,9 +106,14 @@ main{
     border: none;
     margin-left: 279px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .bt-x{
+    font-size: medium;
+    color: #00000038;
+    font-weight: 600;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
