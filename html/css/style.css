@@ -61,7 +61,32 @@ main{
      width:410px;
 }
 
-.lapis{
-    color: #4B9EBF;
+.lapis-1{
+    color: #61a8c4;
     border: none;
+    margin-left: 135px;
+}
+
+.lapis-2{
+    color: #61a8c4;
+    border: none;
+    margin-left: 249px;
+}
+
+.lapis-3{
+    color: #61a8c4;
+    border: none;
+    margin-left: 236px;
+}
+
+.lapis-4{
+    color: #61a8c4;
+    border: none;
+    margin-left: 180px;
+}
+
+.lapis-5{
+    color: #61a8c4;
+    border: none;
+    margin-left: 279px;
 }
