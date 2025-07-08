@@ -92,5 +92,6 @@ main{
 }
 
 .bt-x{
-    
+    background-color: transparent;
+    border: none;
 }
